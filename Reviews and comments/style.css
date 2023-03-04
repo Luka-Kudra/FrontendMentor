@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+main {
+  padding-top: 7%;
+  padding-inline: 10%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(563px, 1fr));
+}
+
+h1 {
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  font-size: 60px;
+  width: 400px;
+}
+
+.subtitle {
+  padding-block: 30px;
+  word-spacing: 2px;
+  font-size: 22px;
+  width: 520px;
+  color: hsl(303, 10%, 53%);
+  line-height: 30px;
+}
+
+.reviews {
+  margin-left: 18%;
+}
+
+.review {
+  padding: 20px;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  width: 500px;
+  display: flex;
+  margin: 20px;
+  font-size: 18px;
+  gap: 30px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+
+.review-two {
+  margin-left: 10%;
+}
+
+.review-three {
+  margin-left: 20%;
+}
+
+.stars {
+  width: 125px;
+  height: 20px;
+  background-image: url(images/icon-star.svg);
+  background-repeat: repeat-x;
+  margin-inline: 20px;
+}
+
+.comments {
+  padding: 60px;
+  margin-top: 80px;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 450px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.comment-one {
+  margin-top: 40px;
+}
+
+.comment-two {
+  margin-top: 55px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  margin-top: -5px;
+}
+
+.name {
+  margin: 10px 30px;
+}
+
+h2 {
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5px;
+  color: hsl(333, 80%, 67%);
+}
+
+.message {
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.comments-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+}
+
+@media only screen and (max-width: 1420px) {
+  .reviews {
+    margin: 0;
+  }
+  .review-one {
+    margin-left: 0;
+  }
+  .review-two {
+    margin-left: 0;
+  }
+
+  .review-three {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  * {
+    zoom: 93%;
+  }
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+}
