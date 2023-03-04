@@ -12,4 +12,5 @@ These are projects I use to practice my skills
 
 <div display="flex">
 <img width="500px" src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/rqjrs5fhup3ufygdjigk.jpg" >
+<img width="205.5px" src="file:///C:/Users/lukak/Downloads/tlkowcepmgqv4j7j62t9.png" >
 </div>
