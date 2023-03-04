@@ -11,6 +11,5 @@ These are projects I use to practice my skills
 ## Reviews and comments
 
 <div display="flex">
-<img width="205.5px" src="https://res.cloudinary.com/dz209s6jk/image/upload/v1652196854/Challenges/tlkowcepmgqv4j7j62t9.jpg" >
 <img width="500px" src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/rqjrs5fhup3ufygdjigk.jpg" >
 </div>
