@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: hsl(257, 40%, 49%);
+  font-family: "Poppins", sans-serif;
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+}
+
+.logo {
+  margin: 90px 100px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(860px, 2fr));
+}
+
+.mockup {
+  margin: 10px 10%;
+  width: 800px;
+}
+
+h1 {
+  width: 600px;
+  font-size: 50px;
+  color: white;
+  margin-left: 5%;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+  width: 650px;
+  margin-block: 40px;
+  margin-left: 5%;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  padding: 15px 60px;
+  border-radius: 45px;
+  font-size: 20px;
+  color: hsl(257, 40%, 49%);
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 5%;
+}
+
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+  cursor: pointer;
+}
+
+.fa-facebook-f {
+  color: aliceblue;
+  font-size: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 9px 17px;
+  padding-left: 15px;
+  margin-left: 85%;
+}
+
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+  color: hsl(300, 69%, 71%);
+  border: 1px solid hsl(300, 69%, 71%);
+  cursor: pointer;
+}
+
+.fa-twitter {
+  color: aliceblue;
+  font-size: 27px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 11px 10px;
+  padding-left: 13px;
+  margin-left: 5px;
+}
+
+.fa-instagram {
+  color: aliceblue;
+  font-size: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 12px 14px;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 1300px) {
+  body {
+    overflow-x: hidden;
+  }
+  .mockup {
+    margin-left: 20%;
+  }
+  .text {
+    margin-left: 15%;
+  }
+  .fa-brands {
+    margin-bottom: 30px;
+  }
+  .fa-facebook-f {
+    margin-left: 80%;
+  }
+  .background {
+    height: 80%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    zoom: 50%;
+    overflow: hidden;
+    position: fixed;
+  }
+  .mockup {
+    margin-left: 10%;
+    width: 600px;
+  }
+  .text {
+    margin-top: 100px;
+    margin-left: 5%;
+  }
+  p {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  button {
+    zoom: 130%;
+    margin-top: 20px;
+  }
+  .fa-brands {
+    margin-bottom: 30px;
+    zoom: 150%;
+    margin-top: 70px;
+  }
+  .fa-facebook-f {
+    margin-left: 30%;
+  }
+}
