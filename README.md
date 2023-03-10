@@ -32,6 +32,6 @@ These are projects I use to practice my skills
 
 <div display="flex">
 <img width="500px" src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/aqbssn4qnnb7jwp9kbw2.jpg" >
-<img zoom="70%" width="500px" src="https://res.cloudinary.com/dz209s6jk/image/upload/v1676651421/Challenges/np8gcjsljpn4zlzqdusd.jpg" >
+<img width="300px" src="https://res.cloudinary.com/dz209s6jk/image/upload/v1676651421/Challenges/np8gcjsljpn4zlzqdusd.jpg" >
 </div>
 
