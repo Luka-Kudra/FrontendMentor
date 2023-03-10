@@ -23,5 +23,8 @@ These are projects I use to practice my skills
 ## Huddle
 
 <div display="flex">
+<img width="500px" src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/m8aueljlhfwzve7zxpy7.jpg" >
+</div>
+<div display="flex">
 <img width="500px" src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/c7mkk5qtwdx23srnjzus.jpg" >
 </div>
