@@ -38,7 +38,7 @@ These are projects I use to practice my skills
 ## Monthly subscription
 
 <div display="flex">
-<img width="700px" src="https://res.cloudinary.com/dz209s6jk/image/upload/v1558450849/Challenges/etoajz7nokwmphl1jonw.jpg" >
-<img width="170px" src="https://res.cloudinary.com/dz209s6jk/image/upload/v1558450850/Challenges/cjwzdseazcmvcd0g2tsx.jpg" >
+<img width="500px" src="https://res.cloudinary.com/dz209s6jk/image/upload/v1558450849/Challenges/etoajz7nokwmphl1jonw.jpg" >
+<img width="120px" src="https://res.cloudinary.com/dz209s6jk/image/upload/v1558450850/Challenges/cjwzdseazcmvcd0g2tsx.jpg" >
 </div>
 
