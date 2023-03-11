@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+}
+.white-box {
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 700px;
+  height: 220px;
+  margin-inline: auto;
+  margin-top: 200px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 40px;
+}
+h2 {
+  color: #2bb3b1;
+}
+.money-back {
+  color: hsl(71, 73%, 54%);
+  margin-top: 10px;
+}
+.community-pragraph {
+  color: hsl(0, 0%, 76%);
+  margin-top: 20px;
+}
+.green-boxes {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 700px;
+  height: 280px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: hsl(204, 43%, 93%);
+}
+.signup-box {
+  background-color: #2bb3b1;
+  border-bottom-left-radius: 10px;
+  padding: 35px;
+}
+.description-box {
+  background-color: #4abebd;
+  border-bottom-right-radius: 10px;
+  padding: 35px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 35px;
+}
+p {
+  color: hsla(203, 44%, 93%, 0.5);
+  font-size: 18px;
+}
+h3 {
+  font-size: 20px;
+}
+.subscription-pragraph {
+  color: hsl(204, 43%, 93%);
+  margin-top: 20px;
+}
+.description-paragraph {
+  width: 225px;
+  margin-top: 20px;
+}
+.button {
+  position: relative;
+}
+button {
+  padding: 15px 90px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  border: 0;
+  margin: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 730px) {
+  body {
+    zoom: 90%;
+    overflow: hidden;
+  }
+  .white-box {
+    margin-top: 75px;
+    width: 90%;
+    height: 40%;
+  }
+  .green-boxes {
+    display: block;
+    width: 90%;
+  }
+  .signup-box {
+    border-bottom-left-radius: 0px;
+    
+  }
+  .description-box {
+    border-bottom-left-radius: 10px;
+  }
+}
