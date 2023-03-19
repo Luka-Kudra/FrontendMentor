@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+body {
+  background-color: #0c122c;
+  overflow: hidden;
+}
+.desktop-background {
+  width: 100%;
+  position: absolute;
+  margin-top: 50vh;
+  height: 50%;
+  z-index: -1;
+}
+main {
+  justify-content: center;
+  display: flex;
+  padding-top: 350px;
+  gap: 25px;
+}
+.logo-section {
+  width: 375px;
+  height: 200px;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  border-top-right-radius: 115px;
+  padding: 40px;
+}
+.icon {
+  background-color: #0c122c;
+  margin-left: auto;
+  margin-right: auto;
+  width: 47.5px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.storage-section {
+  background-color: hsl(228, 56%, 26%);
+  width: 650px;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 20px;
+}
+.messege {
+  color: black;
+  height: 105px;
+  display: flex;
+  background-image: url(https://github.com/Luka-Kudra/FrontendMentor/blob/main/Flyo/images/messege.png?raw=true);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 15px;
+  width: 230px;
+  margin-left: 415px;
+  margin-top: -125px;
+}
+h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+}
+p {
+  color: hsla(228, 56%, 26%, 0.75);
+  font-weight: 700;
+  margin: 20px;
+}
+
+.storage-paragraph {
+  color: hsl(231, 11%, 77%);
+  font-weight: 400;
+}
+.outside-line {
+  width: 555px;
+  height: 21px;
+  background-color: hsl(229, 57%, 11%);
+  margin-inline: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.inside-line {
+  width: 400px;
+  height: 16px;
+  background-image: linear-gradient(
+    90deg,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+  border-radius: 10px;
+  margin-top: -19px;
+  margin-left: 30px;
+}
+.white-circle {
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    border-radius: 50px;
+    float: right;
+    margin: 1px;
+}
+.gigabytes {
+  display: flex;
+  gap: 450px;
+  margin: 10px 30px;
+}
+h4 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 1250px) {
+  body {
+    zoom: 85%;
+  }
+  .desktop-background {
+    margin-top: 62.5vh;
+  }
+  main {
+    padding-top: 425px;
+  }
+}
+
+@media only screen and (max-width: 950px)  {
+  main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 35%;
+  }
+  .logo-section, .storage-section {
+    width: 100%;
+  }
+  .storage-section  {
+    height: 200px;
+  }
+  .outside-line {
+    width: 90%;
+    margin-top: -165px;
+  }
+  .inside-line {
+    width: 60%;
+    margin-left: 5%;
+    margin-top: -19px;
+  }
+  .gigabytes {
+    gap: 80%;
+  }
+  .messege {
+    margin: auto;
+    margin-top: 120px;
+    background-color: white;
+    background-image: none;
+    height: 80px;
+    width: 200px;
+    padding: 12px;
+    padding-left: 17px;
+    border-radius: 10px;
+  }
+  
+}
