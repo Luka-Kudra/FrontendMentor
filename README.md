@@ -44,7 +44,7 @@ These are projects I use to practice my skills
 
 ## Flyo (dark theme)
 
-<img width="600px" src="https://github.com/Luka-Kudra/FrontendMentor/blob/main/Flyo/design/desktop-design.jpg?raw=true" >
+<img width="600px" src="https://github.com/Luka-Kudra/FrontendMentor/blob/main/Flyo(dark theme)/design/desktop-design.jpg?raw=true" >
 
 ## Clipboard 
 <img width="600px" src="https://github.com/Luka-Kudra/FrontendMentor/blob/main/Clipboard/design/desktop-preview.jpg?raw=true" >
