@@ -42,7 +42,8 @@ These are projects I use to practice my skills
 <img width="122px" src="https://res.cloudinary.com/dz209s6jk/image/upload/v1558450850/Challenges/cjwzdseazcmvcd0g2tsx.jpg" >
 </div>
 
-## Flyo
+## Flyo (dark theme)
+
 <img width="600px" src="https://github.com/Luka-Kudra/FrontendMentor/blob/main/Flyo/design/desktop-design.jpg?raw=true" >
 
 ## Clipboard 
